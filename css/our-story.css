@@ -1,0 +1,72 @@
+@import url("style.css");
+
+body {
+  background-color: #FEF200; 
+  background-attachment: fixed;  
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.background img {
+  width: 100%;
+  height: auto;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+/* Make the background image unselectable */
+.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Styles for Our Story */
+#content {
+  margin: auto;
+  max-width: 60em;
+}
+
+#content h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin:auto;
+  margin-top: 40px;
+}
+
+#content h2 {
+  margin:auto;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.1px #D2232A;
+}
+
+#content h2::before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 3px;
+  box-sizing: border-box;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#content p, #content h1, #content h2{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}

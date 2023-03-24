@@ -1,0 +1,147 @@
+* {
+  font-family: 'Ubuntu','Didact Gothic', 'Anton', sans-serif;
+  color: #D2232A;
+}
+
+/* Remove the default margin from the body element */
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Style the header element */
+header {
+  width: 100%; 
+  padding: 10px; 
+  box-sizing: border-box; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #FEF200; 
+  z-index: 10;
+  position: relative;
+}
+
+/* Style logo elements */
+.logo {
+  display: flex; 
+  align-items: center; 
+}
+
+.logo img {
+  height: 100px; 
+}
+
+.logo h1 {
+  margin-left: -10px; 
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Style nav elements */
+nav {
+  margin-left: 50px; 
+}
+
+nav ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+}
+
+nav li {
+  margin: 0 10px; 
+  margin-bottom: -10px;
+}
+
+nav a {
+  text-decoration: none; 
+}
+
+/* Style the "Order Online" link */
+#orderOnline {
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: auto;
+  border-style: solid;
+  border-color:#D2232A;
+  border-radius: 25px;
+  text-decoration :none;
+}
+
+/* Style Footer */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer{
+  background-color: #FEF200;
+  padding: 30px 0;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-col{
+  width: 23%;
+}
+
+.footer-col h4{
+  font-size: 18px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #F3DB77;
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.footer .credits {
+  text-align: center;
+  font-size: 14px;
+}
