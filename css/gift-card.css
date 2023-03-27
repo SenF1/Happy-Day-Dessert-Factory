@@ -1,0 +1,66 @@
+@import url("style.css");
+
+body {
+  background-color: #FEF200; 
+}
+
+/* Styles for Gift Card */
+#content {
+  margin: auto;
+  max-width: 65em;
+  margin-bottom: 90px;
+}
+
+#content h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#content h2 {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.1px #D2232A;
+}
+
+#content h1::before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 3px;
+  box-sizing: border-box;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#content p, #content h1, #content h2{
+  position: relative;
+  z-index: 1;
+}
+
+#card {
+  float: left;
+  margin-right: 45px;
+}
+
+.button {
+  border-style: solid;
+  padding: 20px;
+  border-color:#D2232A;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 10px 8px 0px;
+  cursor: pointer;
+  border-radius: 12px;
+}
