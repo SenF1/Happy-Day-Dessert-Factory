@@ -56,7 +56,7 @@ body {
 #content h2::before{
   content: '';
   position: absolute;
-  bottom: -10px;
+  bottom: -20px;
   background-color: #e91e63;
   height: 3px;
   box-sizing: border-box;

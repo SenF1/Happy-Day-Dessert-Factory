@@ -1,0 +1,246 @@
+@import url("style.css");
+
+body {
+  background-color: #FEF200; 
+}
+
+/* Styles for Index  */
+#content {
+  margin-top: 40px;
+  width: 100%;
+}
+
+#content h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+section {
+  height: 100vh;
+}
+
+#content h1::before{
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  background-color: #D2232A;
+  height: 3px;
+  box-sizing: border-box;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Styles for Welcome Section  */
+#welcome_section {
+  background-color: #FEF200;
+  height: 85vh;
+}
+
+#welcome_section h1 {
+  text-align: left;
+  font-size: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#welcome_section h1::before,
+#welcome_section h1::after {
+  margin: 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: none;
+  width: 400px;
+  height: 3px;
+  background-color: #D2232A;
+  bottom: -10px;
+  box-sizing: border-box;
+}
+
+#welcome_section h1::before {
+  top: -15px;
+}
+
+#welcome_section h1::after {
+  bottom: -15px;
+}
+
+.white_color_red_border {
+  margin: auto;
+  font-weight: bold;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.1px #D2232A;
+}
+
+#content p, #content h1, #content h2{
+  position: relative;
+  z-index: 1;
+}
+
+#welcome_section p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#happy_hour {
+  height: 600px;
+  position: relative;
+  float: right;
+  margin-right: 100px;
+}
+
+#left_of_image {
+  margin-top: 50px;
+  position: absolute;
+  margin-left: 200px;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: #D2232A;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button {
+  padding: 20px 50px;
+  border-style: solid;
+  border-color:#D2232A;
+  color: white;
+  background-color: #D2232A;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 10px 8px 0px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Styles for Flavors Section  */
+#flavors_section {
+  background-image: linear-gradient(to bottom, white 50%, #7FC9F4 50%);
+}
+
+#cones {
+  height: 750px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+
+#flavors_section h1 {
+  position: absolute;
+  margin-left: 120px;
+}
+
+/* Styles for Serving Section  */
+#serving_section {
+  background-color: white;
+  position: relative;
+  width: 100%;
+}
+
+#serving_section h1 {
+  right: 170px;
+  position: absolute;
+  z-index: 3;
+}
+
+
+#serving_section img.top-left {
+  position: absolute;
+  top: 130px;
+  left: 130px;
+  height: 400px;
+  z-index: 2;
+}
+
+#serving_section img.bottom-right {
+  position: absolute;
+  bottom: 60px;
+  right: 130px;
+  height: 400px;
+  z-index: 2;
+}
+
+#red_rect_block {
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  height: 250px;
+  background-color: #D2232A;
+  z-index: 1;
+}
+
+/* Styles for Video Section  */
+#video_section {
+  /* background-color: #F3DB77; */
+  background-image: linear-gradient(to bottom, #F3DB77 75%, white 75%);
+  position: relative;
+}
+
+.pbs-viral-player-wrapper {
+  width: 1000px;
+  border: 0;
+  margin: auto;
+}
+
+#video_section iframe {
+  position: absolute;
+  clip-path: inset(50px 0 250px 0);
+  margin-top: -30px;
+}
+
+/* Styles for Testimonials Section  */
+#testimonials_section {
+  background-color: white;
+  position: relative;
+  height: 80vh;
+  margin-bottom: -30px;
+}
+
+#reviews {
+  margin-top: 40px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.slides {
+  margin-left: 100px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev {
+  opacity: 1;
+  left: -100px;
+  display: block;
+  background: url(../images/angle-left-solid.svg) no-repeat;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next {
+  opacity: 1;
+  right: -100px;
+  display: block;
+  background: url(../images/angle-right-solid.svg) no-repeat;
+}
+
+.flex-control-nav li {
+  display: inline-block;
+}
+
+.flex-control-nav li a {
+  background: #FEF200;
+}
+
+.flex-control-nav li a.flex-active {
+  background: #D2232A;
+}
