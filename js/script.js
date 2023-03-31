@@ -15,7 +15,7 @@ document.addEventListener('fullscreenchange', function() {
 });
 
 
-
+// Setting up the slider
 $(window).load(function() {
     $('.flexslider').flexslider({
       animation: "slide",

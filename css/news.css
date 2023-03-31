@@ -1,0 +1,102 @@
+@import url("style.css");
+
+body {
+  background-color: #F3DB77; 
+}
+
+/* Styles for Index  */
+#content {
+  margin-top: 40px;
+  width: 100%;
+  height: 155vh;
+  background-image: linear-gradient(to bottom, #F3DB77 50%, #7FC9F4 50%);
+  margin-bottom: -30px;
+}
+
+#content h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+#content h1::before{
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  background-color: #D2232A;
+  height: 3px;
+  box-sizing: border-box;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.white_color_red_border {
+  margin: auto;
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.1px #D2232A;
+}
+
+.pbs-viral-player-wrapper {
+  width: 1000px;
+  border: 0;
+  margin: auto;
+  padding-bottom: 0;
+}
+
+iframe {
+  position: absolute;
+  clip-path: inset(50px 0 250px 0);
+  margin-top: -30px;
+}
+
+h3 {
+  top:300px;
+  margin-top: -220px;
+  margin-left: 220px; 
+  font-weight: bold;
+}
+
+p {
+  font-size: 5px;
+}
+
+h4 {
+  color: white;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 200px;
+}
+
+.card {
+  width: calc(33.33% - 40px); 
+  margin: 0 20px;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 307px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-text {
+  margin: 10px;
+}

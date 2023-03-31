@@ -23,8 +23,21 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="script.js"></script>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <link href="css/jquery-ui.css" type="text/css" rel="stylesheet" />
+
+    <!-- External references to JavaScript files -->
+    <script src="js/jquery-3.6.4.min.js" type="text/javascript"> </script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"> </script>
+    <script src="js/scripts.js" type="text/javascript"> </script>
+
+    <link href="css/menu.css" type="text/css" rel="stylesheet" />
+
+    <script>
+      $( function() {
+        $( "#tabs" ).tabs();
+      } );
+    </script>
   </head>
 
   <body>
@@ -53,8 +66,293 @@
 
       <!-- Main Content -->
       <div id="content">
-        <h1 style="text-align: center;">This page is under construction. Please come back soon!</h1>
-        <p style="text-align: center;">Only Completed Our Story page for Phase 1</p>
+        <h2 id="first2">Explore Our</h2>
+        <h1 id="first1">Menu</h1>
+
+        <section id="menu_section">
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">All Menu</a></li>
+              <li><a href="#tabs-2">Ice Cream</a></li>
+              <li><a href="#tabs-3">Water Ice</a></li>
+              <li><a href="#tabs-4">Cake</a></li>
+              <li><a href="#tabs-5">Dessert</a></li>
+              <li><a href="#tabs-6">Promotions</a></li>
+            </ul>
+            <div id="yellow_rect_block"></div>
+                                      
+            <div id="tabs-1">
+              <div class="cards-container">
+                <div class="card">
+                  <img src="images/ice_cream_1.png" alt="Triple Chocolate Mousse">
+                  <div class="card-text">
+                    <h2>Triple Chocolate Mousse</h2>
+                    <p>Dark Chocolate, Milk Chocolate and Semi-Sweet chocolate all mixed into a chocolate mousse base to brighten your day!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_2.png" alt="Cherry Vanilla">
+                  <div class="card-text">
+                    <h2>Cherry Vanilla</h2>
+                    <p>A piece of cherry in every bite without ever having to worry about the seeds!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_3.png" alt="Birthday Cake">
+                  <div class="card-text">
+                    <h2>Birthday Cake</h2>
+                    <p>Cake Batter Ice Cream with rainbow sprinkles and cake pieces!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_4.png" alt="Apple Pie">
+                  <div class="card-text">
+                    <h2>Triple Chocolate Mousse</h2>
+                    <p>Apples and Cinnamon captured perfectly on a cone!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_5.png" alt="Chocolate Reese's Peanut Butter Cup">
+                  <div class="card-text">
+                    <h2>Chocolate Reese's Peanut Butter Cup</h2>
+                    <p>Reese's Peanut Butter Cup captured perfectly!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_6.png" alt="Mocha Fudge Pie">
+                  <div class="card-text">
+                    <h2>Mocha Fudge Pie</h2>
+                    <p>Coffee, Chocolate Chip Cookies, Fudge ripple. Enough said!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/water_ice_1.png" alt="Mango Water Ice">
+                  <div class="card-text">
+                    <h2>Mango Water Ice</h2>
+                    <p>Blended puree and fresh mango mixed together perfectly!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/water_ice_2.png" alt="Lemon Water Ice">
+                  <div class="card-text">
+                    <h2>Lemon Water Ice</h2>
+                    <p>Fresh lemons blended to refreshing perfection!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/water_ice_3.png" alt="Blue Raspberry Water Ice">
+                  <div class="card-text">
+                    <h2>Blue Raspberry Water Ice</h2>
+                    <p>Beautifully delicious!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/cake_1.png" alt="Birthday Bash">
+                  <div class="card-text">
+                    <h2>Birthday Bash</h2>
+                    <p>Yellow Cake, Birthday Cake Premium Hard Ice Cream, Vanilla Frozen Custard Icing and decorated with Rainbow Sprinkles.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/cake_2.png" alt="Strawberry Short Cake">
+                  <div class="card-text">
+                    <h2>Strawberry Short Cake</h2>
+                    <p>Yellow Cake, Strawberry Premium Hard Ice Cream, Vanilla Frozen Custard Icing decorated with fresh strawberry topping.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/cake_3.png" alt="Triple Chocolate Cake">
+                  <div class="card-text">
+                    <h2>Triple Chocolate Cake</h2>
+                    <p>Chocolate Cake, Triple Chocolate Mousse Hard Ice Cream, Chocolate Frozen Custard Icing decorated with Chocolate Sprinkles, Chocolate Shavings and Chocolate Chips.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/dessert_1.png" alt="STACKER">
+                  <div class="card-text">
+                    <h2>STACKER</h2>
+                    <p>A Stacker is made with a base layer of frozen custard followed by any single or combination of water ice topped off with a layer of frozen custard.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/dessert_2.png" alt="ICE SHAKE">
+                  <div class="card-text">
+                    <h2>ICE SHAKE</h2>
+                    <p>Ice Shakes are a blended combination of custard or water and any flavor(s) of water ice.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/dessert_3.png" alt="TWISTER">
+                  <div class="card-text">
+                    <h2>TWISTER</h2>
+                    <p>A Twister is a blended combination of any soft serve, hard ice cream and or any flavor(s) of water ice and cookie pieces or toppings.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tabs-2">
+              <div class="cards-container">
+                <div class="card">
+                  <img src="images/ice_cream_1.png" alt="Triple Chocolate Mousse">
+                  <div class="card-text">
+                    <h2>Triple Chocolate Mousse</h2>
+                    <p>Dark Chocolate, Milk Chocolate and Semi-Sweet chocolate all mixed into a chocolate mousse base to brighten your day!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_2.png" alt="Cherry Vanilla">
+                  <div class="card-text">
+                    <h2>Cherry Vanilla</h2>
+                    <p>A piece of cherry in every bite without ever having to worry about the seeds!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_3.png" alt="Birthday Cake">
+                  <div class="card-text">
+                    <h2>Birthday Cake</h2>
+                    <p>Cake Batter Ice Cream with rainbow sprinkles and cake pieces!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_4.png" alt="Apple Pie">
+                  <div class="card-text">
+                    <h2>Triple Chocolate Mousse</h2>
+                    <p>Apples and Cinnamon captured perfectly on a cone!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_5.png" alt="Chocolate Reese's Peanut Butter Cup">
+                  <div class="card-text">
+                    <h2>Chocolate Reese's Peanut Butter Cup</h2>
+                    <p>Reese's Peanut Butter Cup captured perfectly!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/ice_cream_6.png" alt="Mocha Fudge Pie">
+                  <div class="card-text">
+                    <h2>Mocha Fudge Pie</h2>
+                    <p>Coffee, Chocolate Chip Cookies, Fudge ripple. Enough said!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tabs-3">
+              <div class="cards-container">
+                <div class="card">
+                  <img src="images/water_ice_1.png" alt="Mango Water Ice">
+                  <div class="card-text">
+                    <h2>Mango Water Ice</h2>
+                    <p>Blended puree and fresh mango mixed together perfectly!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/water_ice_2.png" alt="Lemon Water Ice">
+                  <div class="card-text">
+                    <h2>Lemon Water Ice</h2>
+                    <p>Fresh lemons blended to refreshing perfection!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/water_ice_3.png" alt="Blue Raspberry Water Ice">
+                  <div class="card-text">
+                    <h2>Blue Raspberry Water Ice</h2>
+                    <p>Beautifully delicious!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tabs-4">
+              <div class="cards-container">
+                <div class="card">
+                  <img src="images/cake_1.png" alt="Birthday Bash">
+                  <div class="card-text">
+                    <h2>Birthday Bash</h2>
+                    <p>Yellow Cake, Birthday Cake Premium Hard Ice Cream, Vanilla Frozen Custard Icing and decorated with Rainbow Sprinkles.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/cake_2.png" alt="Strawberry Short Cake">
+                  <div class="card-text">
+                    <h2>Strawberry Short Cake</h2>
+                    <p>Yellow Cake, Strawberry Premium Hard Ice Cream, Vanilla Frozen Custard Icing decorated with fresh strawberry topping.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/cake_3.png" alt="Triple Chocolate Cake">
+                  <div class="card-text">
+                    <h2>Triple Chocolate Cake</h2>
+                    <p>Chocolate Cake, Triple Chocolate Mousse Hard Ice Cream, Chocolate Frozen Custard Icing decorated with Chocolate Sprinkles, Chocolate Shavings and Chocolate Chips.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tabs-5">
+              <div class="cards-container">
+                <div class="card">
+                  <img src="images/dessert_1.png" alt="STACKER">
+                  <div class="card-text">
+                    <h2>STACKER</h2>
+                    <p>A Stacker is made with a base layer of frozen custard followed by any single or combination of water ice topped off with a layer of frozen custard.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/dessert_2.png" alt="ICE SHAKE">
+                  <div class="card-text">
+                    <h2>ICE SHAKE</h2>
+                    <p>Ice Shakes are a blended combination of custard or water and any flavor(s) of water ice.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/dessert_3.png" alt="TWISTER">
+                  <div class="card-text">
+                    <h2>TWISTER</h2>
+                    <p>A Twister is a blended combination of any soft serve, hard ice cream and or any flavor(s) of water ice and cookie pieces or toppings.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tabs-6">
+              <div class="cards-container">
+                <div class="card">
+                  <img src="images/dessert_3.png" alt="TWISTER">
+                  <div class="card-text">
+                    <h2>TWISTER</h2>
+                    <p>A Twister is a blended combination of any soft serve, hard ice cream and or any flavor(s) of water ice and cookie pieces or toppings.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/cake_2.png" alt="Strawberry Short Cake">
+                  <div class="card-text">
+                    <h2>Strawberry Short Cake</h2>
+                    <p>Yellow Cake, Strawberry Premium Hard Ice Cream, Vanilla Frozen Custard Icing decorated with fresh strawberry topping.</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+                                                
+            
+          </div> 
+          
+        </section>
+
+        <section id="catering_section">
+          <h1>Catering</h1>
+          <h2>Join us for the party</h2>
+          <p id="catering">Whether you are planning a birthday party, a wedding reception, a corporate event, or any other special occasion, we can help you make it memorable with our delicious and beautiful catering options. You can choose from our wide range of menu items, including our signature cakes and cookies that will delight your guests.<br><br>
+
+            You can also book our cozy and elegant venue to host your private function at any time of the day. We will take care of everything from setting up to cleaning up so you can relax and enjoy your event. <br><br>
+            
+            Alternatively, we can bring our happiness to you with our delivery and service options. Our professional staff will arrive on time, set up the food and drinks, serve your guests with a smile, and pack up when you are done. <br><br>
+            
+            We are happy to customize our catering and party packages to suit your needs and budget. Please contact us for more information and let us make your event unforgettable.</p>
+          <a class="button" href="mailto:info@happydaydessertfactory.com">Contact Now</a>
+        </section>
       </div>
 
       <!-- Footer -->
