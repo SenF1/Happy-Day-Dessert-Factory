@@ -63,11 +63,11 @@ h3 {
   font-weight: bold;
 }
 
-p {
+#content p {
   font-size: 5px;
 }
 
-h4 {
+#content h4 {
   color: white;
 }
 
