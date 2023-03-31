@@ -23,8 +23,7 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="script.js"></script>
+    <link href="css/contact.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
@@ -53,20 +52,77 @@
 
       <!-- Main Content -->
       <div id="content">
-        <h1 style="text-align: center;">This page is under construction. Please come back soon!</h1>
-        <p style="text-align: center;">Only Completed Our Story page for Phase 1</p>
+        <h1><span class="white_color_red_border">Let's</span> Get in Touch</h1><br>
+        <div class="contact-form">
+          <div class="card">
+            <div class="card-text">
+              <h3>Contact Information</h3>
+              <ul>
+                <li><a href="https://goo.gl/maps/3rhZXKvqrx2cx3ia8" target="_blank"><i class="fas fa-map-marker-alt"></i> 906A Western Ave. Pittsburgh, PA 15233</a></li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.049318943515!2d-80.01914878461434!3d40.45204537936099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f55936fcaed9%3A0x5d18ed4b7f0c8f5a!2sHappy%20Day%20Dessert%20Factory!5e0!3m2!1sen!2sus!4v1680226679248!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <li><a href="mailto:info@happydaydessertfactory.com"><i class="far fa-envelope"></i> info@happydaydessertfactory.com</a></li>
+                <li><a href="#"><i class="fas fa-phone-alt"></i> +1&nbsp;(412)&nbsp;872-0117</a></li>
+              </ul>
+              <div class="social-links">
+                <a href="https://www.facebook.com/happydaydessertfactory/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/happydaydessertfactory/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.yelp.com/biz/happy-day-dessert-factory-pittsburgh" target="_blank"><i class="fab fa-yelp"></i></a>
+              </div>
+              <div class="blue-circle"></div>
+              <div class="blue-circle-small"></div>
+            </div>
+          </div>
+
+          <form>
+            <div class="row">
+              <div class="col">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+              </div>
+              <div class="col">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*" required>
+              </div>
+              <div class="col">
+                <label for="zip-code">Zip Code</label>
+                <input type="text" id="zip-code" name="zip-code" pattern="\d{5}(-\d{4})?" required>
+              </div>
+            </div>
+            <div>
+              <p>Please indicate if you want to receive news updates via email: </p>
+              <input type="checkbox" id="updates" name="updates">
+              <label for="updates">Yes, I want to receive exclusive offers and updates from Happy Day Dessert Factory.</label>
+            </div>
+            <br>
+            <div>
+              <label for="message">Message</label><br>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <div id="button">
+              <input class="button" type="submit" value="Send Message">
+            </div>
+          </form>
+        </div>
       </div>
 
       <!-- Footer -->
       <footer class="footer">
         <div class="row">
-          <img src="images/logo.png" alt="Logo" height="250px">
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo" height="250px">
+          </a>
           <div class="footer-col">
             <h4>Contact Us</h4>
             <ul>
-              <li><a href="https://goo.gl/maps/3rhZXKvqrx2cx3ia8" target="_blank"><i class="fas fa-map-marker-alt"></i> 906A Western Ave. Pittsburgh, PA 15233</a></li>
+              <li><a href="https://goo.gl/maps/NjhYPiSXFbKxuX4C7" target="_blank"><i class="fas fa-map-marker-alt"></i> 906A Western Ave. Pittsburgh, PA 15233</a></li>
               <li><a href="mailto:info@happydaydessertfactory.com"><i class="far fa-envelope"></i> info@happydaydessertfactory.com</a></li>
-              <li><a href="#"><i class="fas fa-phone-alt"></i> +1(412)872-0117</a></li>
+              <li><a href="tel:+14128720117"><i class="fas fa-phone-alt"></i> +1&nbsp;(412)&nbsp;872-0117</a></li>
             </ul>
           </div>
           <div class="footer-col">
@@ -83,15 +139,15 @@
               <a href="https://www.yelp.com/biz/happy-day-dessert-factory-pittsburgh" target="_blank"><i class="fab fa-yelp"></i></a>
             </div>
          </div>
-       </div>
+      </div>
 
-       <div class="credits">
-        <p>Icons by <a href="https://fontawesome.com">Font Awesome</a> under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 License</a></p>
+      <div class="credits">
+        <p>Icons by <a href="https://fontawesome.com" target="_blank">Font Awesome</a> under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0 License</a></p>
         <p>&copy; 2023 Happy Day Dessert Factory</p>
       </div>
      </footer>
    
     </div>
-
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

@@ -15,7 +15,7 @@ document.addEventListener('fullscreenchange', function() {
 });
 
 
-// Setting up the slider
+// Setting up the slider for Customer Testimonials
 $(window).load(function() {
     $('.flexslider').flexslider({
       animation: "slide",

@@ -108,6 +108,7 @@ ul{
 
 .footer-col{
   width: 23%;
+  margin-right: 20px;
 }
 
 .footer-col h4{
@@ -134,10 +135,10 @@ ul{
   text-decoration: none;
   font-weight: 300;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.footer-col .social-links a{
+.social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -149,7 +150,15 @@ ul{
   transition: all 0.5s ease;
 }
 
+.social-links a:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 .footer .credits {
   text-align: center;
   font-size: 14px;
+}
+
+.footer li i {
+  margin-right: 10px;
 }
