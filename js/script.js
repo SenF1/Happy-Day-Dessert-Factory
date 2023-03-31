@@ -19,7 +19,7 @@ document.addEventListener('fullscreenchange', function() {
 $(window).load(function() {
     $('.flexslider').flexslider({
       animation: "slide",
-      animationLoop: false,
+      animationLoop: true,
       itemWidth: 500,
       itemMargin: 20
     });
