@@ -42,7 +42,12 @@
         </div>
         <nav>
           <ul>
-            <li><a href="../html/menu.html">Menu</a></li>
+            <li class="dropdown">
+              <a href="../html/menu.html">Menu <i class="fas fa-caret-down" onclick="toggleDropdown(event)"></i></a>
+              <ul class="dropdown-content">
+                <li><a href="../html/menu.html#catering_section">Catering</a></li>
+              </ul>
+            </li>
             <li><a href="../html/our-story.html">Our Story</a></li>
             <li><a href="../html/news.html">News</a></li>
             <li><a href="../html/gift-cards.html">Gift Cards</a></li>

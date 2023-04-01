@@ -29,8 +29,7 @@
     <script src="../js/jquery-3.6.4.min.js"> </script>
     <script src="../js/jquery-ui.min.js"> </script>
 
-    <!-- External references to CSS and JavaScript file -->
-    <script src="../js/scripts.js"> </script>
+    <!-- External references to CSS file -->
     <link href="../css/menu.css" type="text/css" rel="stylesheet" />
 
     <script>
@@ -54,7 +53,12 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#">Menu</a></li>
+            <li class="dropdown">
+              <a href="#">Menu <i class="fas fa-caret-down" onclick="toggleDropdown(event)"></i></a>
+              <ul class="dropdown-content">
+                <li><a href="../html/menu.html#catering_section">Catering</a></li>
+              </ul>
+            </li>
             <li><a href="../html/our-story.html">Our Story</a></li>
             <li><a href="../html/news.html">News</a></li>
             <li><a href="../html/gift-cards.html">Gift Cards</a></li>
@@ -392,6 +396,7 @@
      </footer>
    
     </div>
-
+    <!-- External references to JavaScript file -->
+    <script src="../js/script.js"></script>
   </body>
 </html>

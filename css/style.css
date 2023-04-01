@@ -3,6 +3,10 @@
   color: #D2232A;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Remove the default margin from the body element */
 body {
   margin: 0;
@@ -69,6 +73,7 @@ nav ul {
   display: flex; 
 }
 
+
 nav li {
   margin: 0 10px; 
   margin-bottom: -10px;
@@ -76,6 +81,26 @@ nav li {
 
 nav a {
   text-decoration: none; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 6px;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown-content a {
+  font-size: 14px;
 }
 
 /* Style the "Order Online" link */
