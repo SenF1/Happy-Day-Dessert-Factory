@@ -134,6 +134,7 @@ body {
   background-color: #7FC9F4;
   height: 70vh;
   text-align:center;
+  padding-bottom: 70px;
   margin-bottom: -30px;
 }
 
@@ -164,7 +165,7 @@ body {
   text-align: center;
   position: relative;
   max-width: 60em;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0 auto;
   color: white;
   margin-bottom: 30px;
