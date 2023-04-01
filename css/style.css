@@ -145,6 +145,31 @@ ul{
   margin-right: 20px;
 }
 
+#hours ul li{
+  margin-bottom: 7px;
+  font-weight: none;
+}
+
+#hours .day {
+  text-align: left;
+}
+
+#hours .hours {
+  text-align: right;
+}
+
+#hours ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#hours li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+
 .footer-col h4{
   font-size: 18px;
   margin-bottom: 35px;
@@ -189,8 +214,10 @@ ul{
 }
 
 .footer .credits {
+  margin-top: 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 10px;
+  margin-bottom: -20px;
 }
 
 .footer li i {
