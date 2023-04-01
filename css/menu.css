@@ -10,7 +10,7 @@ body {
   max-width: 60em;
 }
 
-#content h1 {
+#content h1, #catering-heading {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
@@ -40,7 +40,7 @@ body {
   transform: translateX(-50%);
 }
 
-#content p, #content h1, #content h2{
+#content p, #content h1, #content h2, #content h3{
   text-align: center;
   position: relative;
   z-index: 1;

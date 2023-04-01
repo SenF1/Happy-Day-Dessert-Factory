@@ -10,7 +10,7 @@ body {
   width: 100%;
 }
 
-#content h1 {
+#content h2 {
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -24,7 +24,7 @@ section {
   height: 100vh;
 }
 
-#content h1::before{
+#content h2::before{
   content: '';
   position: absolute;
   bottom: 20px;
@@ -42,7 +42,7 @@ section {
   height: 85vh;
 }
 
-#welcome_section h1 {
+#welcome_section h2 {
   font-family: 'Anton', 'Ubuntu','Didact Gothic', sans-serif;
   text-align: left;
   font-size: 70px;
@@ -51,8 +51,8 @@ section {
   letter-spacing: 1.5px;
 }
 
-#welcome_section h1::before,
-#welcome_section h1::after {
+#welcome_section h2::before,
+#welcome_section h2::after {
   margin: 0;
   content: "";
   position: absolute;
@@ -65,11 +65,11 @@ section {
   box-sizing: border-box;
 }
 
-#welcome_section h1::before {
+#welcome_section h2::before {
   top: -10px;
 }
 
-#welcome_section h1::after {
+#welcome_section h2::after {
   bottom: -10px;
 }
 
@@ -83,7 +83,7 @@ section {
   font-family: 'Anton', 'Ubuntu','Didact Gothic', sans-serif;
 }
 
-#content p, #content h1, #content h2{
+#content p, #content h2 {
   position: relative;
   z-index: 1;
 }
@@ -144,7 +144,7 @@ section {
   top: 50px;
 }
 
-#flavors_section h1 {
+#flavors_section h2 {
   position: absolute;
   margin-left: 120px;
 }
@@ -156,7 +156,7 @@ section {
   width: 100%;
 }
 
-#serving_section h1 {
+#serving_section h2 {
   right: 170px;
   position: absolute;
   z-index: 3;
