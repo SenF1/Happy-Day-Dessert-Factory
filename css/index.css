@@ -43,10 +43,12 @@ section {
 }
 
 #welcome_section h1 {
+  font-family: 'Anton', 'Ubuntu','Didact Gothic', sans-serif;
   text-align: left;
-  font-size: 60px;
+  font-size: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
+  letter-spacing: 1.5px;
 }
 
 #welcome_section h1::before,
@@ -64,18 +66,21 @@ section {
 }
 
 #welcome_section h1::before {
-  top: -15px;
+  top: -10px;
 }
 
 #welcome_section h1::after {
-  bottom: -15px;
+  bottom: -10px;
 }
 
 .white_color_red_border {
   margin: auto;
+  font-size: 70px;
   font-weight: bold;
   color: #FFFFFF;
   -webkit-text-stroke: 0.1px #D2232A;
+  letter-spacing: 1.5px;
+  font-family: 'Anton', 'Ubuntu','Didact Gothic', sans-serif;
 }
 
 #content p, #content h1, #content h2{
@@ -84,6 +89,7 @@ section {
 }
 
 #welcome_section p {
+  font-family:  'Ubuntu', 'Anton', 'Didact Gothic', sans-serif;
   font-size: 20px;
   line-height: 1.5;
 }

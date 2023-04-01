@@ -20,6 +20,11 @@ body {
   display: table;
 }
 
+#content p {
+  font-family: 'Didact Gothic', 'Ubuntu', 'Anton', sans-serif;
+  margin: 1em 0;
+}
+
 /* Style the header element */
 header {
   width: 100%; 
